@@ -35,7 +35,8 @@ h3 { font-size: 1.8rem; }
 
 .hero, .about-hero, .banner { position: relative; min-height: 70vh; display: flex; align-items: center; }
 .hero {
-  background: url('https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=1800&q=80') center/cover no-repeat;
+  background: radial-gradient(circle at 20% 20%, rgba(255, 250, 243, 0.16), rgba(20, 24, 39, 0.25)),
+    url('branding-image-index.svg') center/cover no-repeat;
 }
 .about-hero {
   min-height: 58vh;
@@ -56,15 +57,6 @@ h3 { font-size: 1.8rem; }
 .lead { font-size: 1.15rem; max-width: 68ch; }
 .intro { margin-top: 1.2rem; max-width: 66ch; color: #f3ecdf; }
 
-.branding-image {
-  width: min(560px, 100%);
-  display: block;
-  margin-bottom: 1rem;
-  border-radius: 18px;
-  border: 1px solid rgba(221, 200, 160, 0.75);
-  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.2);
-  background: rgba(255, 250, 243, 0.92);
-}
 .cta-row { display: flex; gap: .9rem; flex-wrap: wrap; margin-top: 1.5rem; }
 .btn { display: inline-block; background: linear-gradient(135deg, #d7bc8f, #ba9657); color: #1e2130; text-decoration: none; padding: .82rem 1.3rem; border-radius: 999px; font-weight: 600; box-shadow: var(--shadow); transition: transform .25s ease, box-shadow .25s ease; }
 .btn:hover { transform: translateY(-2px); box-shadow: 0 16px 30px rgba(0,0,0,0.2); }
