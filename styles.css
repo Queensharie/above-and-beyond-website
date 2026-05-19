@@ -35,20 +35,24 @@ h3 { font-size: 1.8rem; }
 
 .hero, .about-hero, .banner { position: relative; min-height: 70vh; display: flex; align-items: center; }
 .hero {
-  background: url('https://images.unsplash.com/photo-1560185008-b033106af5c3?auto=format&fit=crop&w=1800&q=80') center/cover no-repeat;
+  background: url('THERAPY PICTURE ON COUCH.png') center/cover no-repeat;
 }
 .about-hero {
   min-height: 58vh;
-  background: url('https://images.unsplash.com/photo-1560185009-5bf9f2849488?auto=format&fit=crop&w=1800&q=80') center/cover no-repeat;
+  background: url('THERAPY PICTURE ON COUCH.png') center 22%/cover no-repeat;
 }
 .banner {
   min-height: 48vh;
-  background: url('https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=1800&q=80') center/cover no-repeat;
+  background: url('Final website introduction logo.png') center/cover no-repeat;
   background-attachment: fixed;
 }
 .hero-overlay, .about-overlay, .banner-overlay {
   position: absolute; inset: 0;
-  background: linear-gradient(120deg, rgba(20, 24, 39, 0.78), rgba(30, 39, 70, 0.34));
+  background: linear-gradient(120deg, rgba(20, 24, 39, 0.68), rgba(30, 39, 70, 0.32));
+}
+
+.banner-overlay {
+  background: linear-gradient(120deg, rgba(17, 34, 64, 0.82), rgba(19, 39, 74, 0.62));
 }
 .hero-content, .about-header, .banner-content { position: relative; z-index: 1; color: #fff; max-width: 800px; padding: 5rem 0; }
 .hero-content h1, .about-header h1, .banner-content h2 { color: #fff; text-shadow: 0 6px 20px rgba(0, 0, 0, 0.36); }
@@ -86,4 +90,22 @@ h3 { font-size: 1.8rem; }
   .site-nav.open { display: flex; }
   .cards-4, .contact-wrap { grid-template-columns: 1fr; }
   .banner { background-attachment: scroll; }
+}
+
+.mission-pillars {
+  list-style: none;
+  padding: 0;
+  margin: 1.3rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: .6rem;
+}
+.mission-pillars li {
+  border: 1px solid rgba(221, 200, 160, 0.5);
+  background: rgba(255, 250, 243, 0.12);
+  color: #f6ecda;
+  padding: .42rem .78rem;
+  border-radius: 999px;
+  font-weight: 500;
+  letter-spacing: .01em;
 }
