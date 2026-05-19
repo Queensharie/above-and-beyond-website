@@ -71,12 +71,15 @@ h3 { font-size: 1.8rem; }
 .contact-card { text-align: left; background: linear-gradient(180deg, #fff, #f8f0e6); }
 .contact-page { max-width: 760px; }
 .contact-eagle-wrap {
-  margin: .6rem 0 1.2rem;
+  margin: .6rem 0 1.4rem;
+  display: flex;
+  justify-content: center;
 }
 .contact-eagle-image {
   display: block;
-  width: min(320px, 100%);
+  width: min(360px, 100%);
   height: auto;
+  object-fit: cover;
   border-radius: 18px;
   border: 1px solid #ebdfcf;
   box-shadow: var(--shadow);
