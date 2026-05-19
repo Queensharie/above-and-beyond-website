@@ -36,11 +36,11 @@ h3 { font-size: 1.8rem; }
 .hero, .about-hero, .banner { position: relative; min-height: 70vh; display: flex; align-items: center; }
 .hero {
   background: radial-gradient(circle at 20% 20%, rgba(255, 250, 243, 0.16), rgba(20, 24, 39, 0.25)),
-    url('hero-eagle-dove-branding.jpg') center/cover no-repeat;
+    url('Final  website introduction logo.png') center/cover no-repeat;
 }
 .about-hero {
   min-height: 58vh;
-  background: url('dr-sheri-durricks-professional.jpg') center/cover no-repeat;
+  background: url('THERAPY PICTURE ON COUCH.png') center/cover no-repeat;
 }
 .banner {
   min-height: 48vh;
