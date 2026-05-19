@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Above and Beyond Counseling Branding</title>
+  <desc id="desc">Elegant cream and gold brand banner with Above and Beyond Counseling and Consulting LLC and Dr. Sheri Durricks.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f2e9"/>
+      <stop offset="100%" stop-color="#e8dccd"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="500" fill="url(#bg)"/>
+  <g fill="none" stroke="#c5a46d" stroke-width="4" opacity="0.65">
+    <path d="M50 390 C 250 140, 950 140, 1150 390"/>
+    <path d="M90 430 C 290 190, 910 190, 1110 430"/>
+  </g>
+  <text x="600" y="205" text-anchor="middle" font-family="Cormorant Garamond, Georgia, serif" font-size="66" fill="#1b2844">Above &amp; Beyond</text>
+  <text x="600" y="262" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="32" fill="#2d2a26" letter-spacing="2">COUNSELING &amp; CONSULTING LLC</text>
+  <text x="600" y="315" text-anchor="middle" font-family="Inter, Segoe UI, sans-serif" font-size="24" fill="#6d655b">Dr. Sheri Durricks</text>
+</svg>
