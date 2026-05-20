@@ -35,12 +35,13 @@ h3 { font-size: 1.8rem; }
 
 .hero, .about-hero, .banner { position: relative; min-height: 70vh; display: flex; align-items: center; }
 .hero {
-  background: radial-gradient(circle at 20% 20%, rgba(255, 250, 243, 0.16), rgba(20, 24, 39, 0.25)),
-    url('Final  website introduction logo.png') center/cover no-repeat;
+  background: url('Final  website introduction logo.png') center/contain no-repeat;
+  background-color: #ffffff;
 }
 .about-hero {
   min-height: 58vh;
-  background: url('THERAPY PICTURE ON COUCH.png') center/cover no-repeat;
+  background: url('THERAPY PICTURE ON COUCH.png') center/contain no-repeat;
+  background-color: #ffffff;
 }
 .banner {
   min-height: 48vh;
